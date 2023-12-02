@@ -1,0 +1,129 @@
+body,html{
+    font-family:sans-serif;
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+header{
+    background: black;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0; 
+    z-index: 9999;
+}
+.container{
+    width: 86%;
+    margin: 0 auto;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.main-nav ul li{
+    float: left;
+    margin-left: 35px;
+    font-size: 20px;
+}
+
+.main-nav ul li a{
+    text-decoration: none;
+    color: white;    
+}
+.main-nav ul li a:hover{
+    color:lightblue;
+}
+.banner img{
+    max-width: 100%;
+    vertical-align: bottom;
+    filter: blur(20px);
+}
+.main-nav ul li .regi{
+    padding: 10px 20px;
+    font-size: 20px;
+    background:navy;
+    color: white;
+    border-radius: 8px;
+    transition: 0.4s ease
+}
+.main-nav ul li .regi:hover{
+    background: white;
+    border: 1px solid white;
+    color: black;
+}
+.about-section,
+.service-section,
+.contact-section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.container h1{
+    font-size: 3em;
+}
+.container p{
+    font-size: 20px;
+}
+.about-section{
+    background: #dbfbf4;
+}
+.service-section{
+    background: #cfd6f9;
+}
+.contact-section{
+    background: #d6f9cf;
+}
+.banner-text1{
+    max-width: 650px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+}
+.banner-text1 h1{
+    font-size: 3.5em;
+    text-shadow: 2px 2px black;
+}
+.banner-text1 span{
+    letter-spacing: 5px;
+    font-size: 25px;
+    text-shadow: 2px 2px black;
+}
+.banner-text1 a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    background:navy;
+    border-radius: 8px;
+    transition: 0.4s ease;
+}
+.banner-text1 a:hover{
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+footer{
+    background: grey;
+    height: 10vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.inside{
+    font-weight: bold;
+    color:navy;
+}
+
+
