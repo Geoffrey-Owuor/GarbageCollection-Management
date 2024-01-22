@@ -31,7 +31,7 @@
         <h1>The Envneat Garbage Collection Management System</h1>
         <br>
         <a href="login.php">User Login</a>
-        <a href="collectorlogin.php">Collector Login</a>
+        <a href="collectorLogin.php">Collector Login</a>
 
     </section> 
     <section class="about-section" id="about">
