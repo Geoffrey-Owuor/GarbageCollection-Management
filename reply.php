@@ -20,7 +20,7 @@
 		$query = "UPDATE feedback SET reply='$reply', reply_status='$reply_status' WHERE reply_id='$reply_id'";
 		mysqli_query($con,$query);
 
-		header("Location: reply.php?success=Feedback Replied!"); 
+		header("Location: reply.php?success=Feedback Sent Successfully!"); 
 		die;
 	}else
 	{
