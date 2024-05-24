@@ -4,34 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" type="text/css" href="start.css">
+    <link rel="stylesheet" type="text/css" href="css/start.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <a href="#" class="logo"><img src="img/logo.png" alt=""></a>
+            <a href="#" class="logo"><img src="css/img/logo.jpeg" alt=""></a>
             <nav class="main-nav">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#service">Services</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="adminLogin.php" class="regi">Admin Login</a></li>
+                    <li><a href="user/login/login.php" class="regi">Login</a></li>
 
                 </ul>
             </nav>
 
         </div>
     </header>
-    <section class="banner" id="home"><img src="img/bg.png" alt=""></section>
+    <section class="banner" id="home"><img src="css/img/bg.jpeg" alt=""></section>
     <section class="banner-text1">
         <span>Fresh Environment!</span>
         <br>
         <span>Your Number One Collectors</span>
         <h1>The Envneat Garbage Collection Management System</h1>
         <br>
-        <a href="login.php">User Login</a>
-        <a href="collectorLogin.php">Collector Login</a>
+        <a href="user/register/register.php">Register</a>
+        <!--<a href="collectorLogin.php">Collector Login</a> -->
 
     </section> 
     <section class="about-section" id="about">
